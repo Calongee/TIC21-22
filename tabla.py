@@ -1,8 +1,10 @@
 def tabla():
-    numero=raw_input("¿Qué tabla quieres?")
-    print("*   TABLA DEL "+numero+"   *")
+    print("*********************")
+    print("*    TABLA DEL 5    *")
+    print("*********************")
     for cont in range(0,11):
-        print(+numero+ " x "str(cont)+" = "+str(+numero*cont))
-    print("Ya está")
-        
+        print("5 x "+str(cont)+" = "+str(5*cont))
+    print("Ya estÃ¡")
+
 tabla()
+
