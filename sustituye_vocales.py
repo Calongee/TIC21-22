@@ -1,7 +1,7 @@
 def sustituye_vocales():
     palabra=raw_input("Dime una palabra ")
     cont=0
-    while(cont<=len(palabra)):
+    while(cont<len(palabra)):
         if(palabra[cont]=="a"):
             print("u")
         else:
