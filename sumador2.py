@@ -1,4 +1,5 @@
-def saludador():
-    raw_input("HOLA DAVID CALONGE, ESPERO QUE EST…S TENIENDO UN BUEN DÕA:)")
-
-saludador()
+def sumador():
+    num1=input("Introduce el primer n√∫mero que quieras sumar: ")
+    num2=input("Introduce el segundo n√∫mero que quieras sumar: ")
+    print(num1+num2)
+sumador()
