@@ -1,4 +1,6 @@
 def saludador():
-    raw_input("HOLA DAVID CALONGE, ESPERO QUE ESTÉS TENIENDO UN BUEN DÍA:)")
+    palabra=raw_input("Â¿CÃ³mo te llamas? ")
+    print("Hola, "+palabra)
 
 saludador()
+
